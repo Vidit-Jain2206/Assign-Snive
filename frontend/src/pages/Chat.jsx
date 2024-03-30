@@ -8,7 +8,7 @@ import { addChat } from "../redux/chatSlice";
 import ChatBox from "../components/ChatBox";
 import RoomButtons from "../components/RoomButtons";
 
-const ENDPOINT = "http://localhost:8080/";
+const ENDPOINT = "https://assign-snive.onrender.com/";
 var socket;
 const Chat = () => {
   const [type, setType] = useState("create");
